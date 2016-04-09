@@ -1,0 +1,30 @@
+{
+  "name": "yylive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrenqc/yylive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrenqc/yylive/issues"
+  },
+  "homepage": "https://github.com/darrenqc/yylive#readme",
+  "dependencies":{
+    "flowesh":"^1.0.0",
+    "mof-cheerio":"*",
+    "mof-charsetparser":"*",
+    "mof-iconv":"^0.1.3",
+    "mof-normalizer":"*",
+    "mof-reqadapter":"*",
+    "mof-seenreq":"*",
+    "winston":"^1.0.0",
+    "moment": "2.10.3"
+  }
+}

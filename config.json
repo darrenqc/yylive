@@ -1,0 +1,14 @@
+{
+    "production":{
+	
+    },
+    "development":{
+		"schedule":{
+		    "concurrent": 1,
+		    "rate": 1000
+		},
+		"request":{
+			"retry":3
+		}
+    }
+}
