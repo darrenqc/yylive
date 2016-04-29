@@ -38,7 +38,7 @@ Spider.prototype = {
 		if(!fs.existsSync(this.resultDir)){
 		    fs.mkdirSync(this.resultDir);
 		}
-		fs.writeFileSync(this.resultDir+this.resultFile, '\ufeff');
+		fs.writeFileSync(this.resultDir+this.resultFile, '\ufeff频道,liveId,liveSid,liveName,liveDesc,观看人数\n');
 		this.seed = {
 			opt:{
 				uri:'http://data.3g.yy.com/nav/v3/infoList',
